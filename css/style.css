@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Ubuntu:wght@300&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+/*--common classes--*/
+.category {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.c_title {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.c_text {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 25px;
+}
+
+
+
+/*--header starts--*/
+header {
+    padding: 25px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu {
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    margin: 0 55px;
+    padding: 3px 0;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+
+/*--header ends--*/
+
+
+/*--banner starts--*/
+.hero_image img {
+    width: 100%;
+}
+
+/*--banner ends--*/
+
+
+
+/*--statement starts--*/
+.statement {
+    padding-top: 100px;
+}
+
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+/*--statement ends--*/
+
+
+/*--blog starts--*/
+.blog {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.blogs {}
+
+.single_blog {
+    width: 47%;
+    float: left;
+    margin-top: 70px;
+}
+
+.single_blog:nth-child(even) {
+    float: right;
+}
+
+.blog_image {
+    margin-bottom: 25px;
+
+}
+
+.blog_image img {
+    width: 100%;
+}
+
+/*--blog ends--*/
+
+
+/*--newsletter starts--*/
+.newsletter {
+    padding: 70px 0;
+    background-color: #F0F0F0;
+}
+
+.singup {
+    text-align: center;
+}
+
+.n_title {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+form input {
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    width: 90%;
+    padding: 15px 40px 15px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border: none;
+    background: transparent;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+form button:focus {
+    outline: none;
+}
+
+form button img {
+    width: 100%;
+}
+
+/*--newsletter ends--*/
+
+.load {
+    text-align: center;
+    margin: 100px 0 0;
+}
+
+.load .btn {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #616161;
+    background-color: transparent;
+    color: #6C6C6C;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.load .btn:hover {
+    background-color: #6C6C6C;
+    color: white;
+}
+
+
+/* footer starts */
+footer {
+    padding: 25px 0;
+    background-color: #EFEFEF;
+}
+
+.terms {
+    float: left;
+}
+
+.terms ul li {
+    float: left;
+    list-style: none;
+}
+
+.terms ul li:first-child {
+    margin-right: 15px;
+}
+
+.terms ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.socials {
+    float: right;
+}
+
+.socials ul li span {
+    margin-right: 15px;
+}
+
+.socials ul li {
+    list-style: none;
+    float: left;
+}
+
+.socials ul li a {
+    margin: 0 10px;
+}
+
+.socials ul li:last-child a {
+    margin-right: 0;
+}
+
+/* footer ends */
